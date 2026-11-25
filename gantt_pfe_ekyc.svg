@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 540" width="760" height="540" font-family="DejaVu Sans, Arial, sans-serif" font-size="13"><rect width="760" height="540" fill="#fff"/>
+<text x="24" y="28" font-size="15" font-weight="600" fill="#1a1a1a">Planning du projet E-KYC : le développement occupe mars à juin</text>
+<text x="24" y="48" font-size="11.5" fill="#666">PFE de 26 semaines, du 5 février au 5 août 2026</text>
+<line x1="279.1" x2="279.1" y1="88" y2="522" stroke="#e3e3df"/><text x="279.1" y="78" text-anchor="middle" font-size="11.5" fill="#666">mars</text>
+<line x1="342.4" x2="342.4" y1="88" y2="522" stroke="#e3e3df"/><text x="342.4" y="78" text-anchor="middle" font-size="11.5" fill="#666">avr.</text>
+<line x1="403.8" x2="403.8" y1="88" y2="522" stroke="#e3e3df"/><text x="403.8" y="78" text-anchor="middle" font-size="11.5" fill="#666">mai</text>
+<line x1="467.1" x2="467.1" y1="88" y2="522" stroke="#e3e3df"/><text x="467.1" y="78" text-anchor="middle" font-size="11.5" fill="#666">juin</text>
+<line x1="528.5" x2="528.5" y1="88" y2="522" stroke="#e3e3df"/><text x="528.5" y="78" text-anchor="middle" font-size="11.5" fill="#666">juil.</text>
+<line x1="591.8" x2="591.8" y1="88" y2="522" stroke="#e3e3df"/><text x="591.8" y="78" text-anchor="middle" font-size="11.5" fill="#666">août</text>
+<line x1="230" x2="600" y1="88" y2="88" stroke="#8a8a80" stroke-width="1.25"/>
+<rect x="230.0" y="107" width="26.6" height="14" rx="7" fill="#8a8a80" fill-opacity="0.18" stroke="#8a8a80" stroke-width="1.25"/>
+<text x="270.6" y="118" font-size="11.5" font-weight="400" fill="#666">5 févr. au 18 févr.</text>
+<text x="24" y="118" font-weight="400" fill="#1a1a1a">Cadrage et besoins</text>
+<rect x="230.0" y="135" width="59.3" height="14" rx="7" fill="#8a8a80" fill-opacity="0.18" stroke="#8a8a80" stroke-width="1.25"/>
+<text x="303.3" y="146" font-size="11.5" font-weight="400" fill="#666">5 févr. au 6 mars</text>
+<text x="24" y="146" font-weight="400" fill="#1a1a1a">État de l'art</text>
+<rect x="252.5" y="163" width="51.1" height="14" rx="7" fill="#8a8a80" fill-opacity="0.18" stroke="#8a8a80" stroke-width="1.25"/>
+<text x="317.6" y="174" font-size="11.5" font-weight="400" fill="#666">16 févr. au 13 mars</text>
+<text x="24" y="174" font-weight="400" fill="#1a1a1a">Conception et données</text>
+<rect x="295.4" y="191" width="65.4" height="14" rx="7" fill="#8a8a80" fill-opacity="0.18" stroke="#8a8a80" stroke-width="1.25"/>
+<text x="374.8" y="202" font-size="11.5" font-weight="400" fill="#666">9 mars au 10 avr.</text>
+<text x="24" y="202" font-weight="400" fill="#1a1a1a">Face match et liveness</text>
+<rect x="338.3" y="219" width="51.1" height="14" rx="7" fill="#8a8a80" fill-opacity="0.18" stroke="#8a8a80" stroke-width="1.25"/>
+<text x="403.4" y="230" font-size="11.5" font-weight="400" fill="#666">30 mars au 24 avr.</text>
+<text x="24" y="230" font-weight="400" fill="#1a1a1a">OCR et cohérence</text>
+<rect x="367.0" y="247" width="51.1" height="14" rx="7" fill="#8a8a80" fill-opacity="0.18" stroke="#8a8a80" stroke-width="1.25"/>
+<text x="432.1" y="258" font-size="11.5" font-weight="400" fill="#666">13 avr. au 8 mai</text>
+<text x="24" y="258" font-weight="400" fill="#1a1a1a">Fraude documentaire</text>
+<rect x="309.7" y="275" width="94.0" height="14" rx="7" fill="#8a8a80" fill-opacity="0.18" stroke="#8a8a80" stroke-width="1.25"/>
+<text x="417.8" y="286" font-size="11.5" font-weight="400" fill="#666">16 mars au 1 mai</text>
+<text x="24" y="286" font-weight="400" fill="#1a1a1a">Backend Spring Boot</text>
+<rect x="352.7" y="303" width="94.0" height="14" rx="7" fill="#8a8a80" fill-opacity="0.18" stroke="#8a8a80" stroke-width="1.25"/>
+<text x="460.7" y="314" font-size="11.5" font-weight="400" fill="#666">6 avr. au 22 mai</text>
+<text x="24" y="314" font-weight="400" fill="#1a1a1a">App mobile Flutter</text>
+<rect x="409.9" y="331" width="51.1" height="14" rx="7" fill="#8a8a80" fill-opacity="0.18" stroke="#8a8a80" stroke-width="1.25"/>
+<text x="475.0" y="342" font-size="11.5" font-weight="400" fill="#666">4 mai au 29 mai</text>
+<text x="24" y="342" font-weight="400" fill="#1a1a1a">Intégration IA / backend</text>
+<rect x="409.9" y="359" width="108.3" height="14" rx="7" fill="#8a8a80" fill-opacity="0.18" stroke="#8a8a80" stroke-width="1.25"/>
+<text x="532.2" y="370" font-size="11.5" font-weight="400" fill="#666">4 mai au 26 juin</text>
+<text x="24" y="370" font-weight="400" fill="#1a1a1a">Dashboard back-office</text>
+<rect x="438.5" y="387" width="51.1" height="14" rx="7" fill="#8a8a80" fill-opacity="0.18" stroke="#8a8a80" stroke-width="1.25"/>
+<text x="503.6" y="398" font-size="11.5" font-weight="400" fill="#666">18 mai au 12 juin</text>
+<text x="24" y="398" font-weight="400" fill="#1a1a1a">Liveness actif (Flutter)</text>
+<rect x="467.1" y="415" width="51.1" height="14" rx="7" fill="#8a8a80" fill-opacity="0.18" stroke="#8a8a80" stroke-width="1.25"/>
+<text x="532.2" y="426" font-size="11.5" font-weight="400" fill="#666">1 juin au 26 juin</text>
+<text x="24" y="426" font-weight="400" fill="#1a1a1a">Sécurité et webhooks</text>
+<rect x="495.7" y="443" width="65.4" height="14" rx="7" fill="#2f6fd6" fill-opacity="0.18" stroke="#2f6fd6" stroke-width="2"/>
+<text x="575.2" y="454" font-size="11.5" font-weight="600" fill="#1a1a1a">15 juin au 17 juil.</text>
+<text x="24" y="454" font-weight="600" fill="#1a1a1a">Tests et évaluation</text>
+<rect x="252.5" y="471" width="337.3" height="14" rx="7" fill="#8a8a80" fill-opacity="0.18" stroke="#8a8a80" stroke-width="1.25"/>
+<text x="603.8" y="482" font-size="11.5" font-weight="400" fill="#666">16 févr. au 31 juil.</text>
+<text x="24" y="482" font-weight="400" fill="#1a1a1a">Rédaction du mémoire</text>
+<rect x="553.0" y="499" width="47.0" height="14" rx="7" fill="#8a8a80" fill-opacity="0.18" stroke="#8a8a80" stroke-width="1.25"/>
+<text x="614.0" y="510" font-size="11.5" font-weight="400" fill="#666">13 juil. au 5 août</text>
+<text x="24" y="510" font-weight="400" fill="#1a1a1a">Préparation soutenance</text>
+</svg>

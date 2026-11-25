@@ -1,0 +1,50 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ekyc-backend
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5433/ekyc}
+    username: ${DB_USER:ekyc}
+    password: ${DB_PASSWORD:ekyc}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: update
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 55MB
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+kyc:
+  jwt:
+    # À remplacer en production (variable d'environnement JWT_SECRET, 32 caractères minimum)
+    secret: ${JWT_SECRET:dev-only-secret-change-me-0123456789abcdef}
+    expiration-minutes: 120
+  storage:
+    root: ${KYC_STORAGE_ROOT:./uploads}
+  # Seuils de décision, à calibrer avec les métriques de ton évaluation (FAR/FRR, etc.)
+  thresholds:
+    approve: 0.80          # face match, liveness, cohérence >= approve => candidat à l'approbation
+    reject: 0.50           # face match, liveness, cohérence < reject => rejet
+    fraud-approve-max: 0.20  # score de fraude (risque 0..1) <= => candidat à l'approbation
+    fraud-reject-min: 0.60   # score de fraude >= => rejet
+  ai:
+    mode: mock             # mock | (plus tard) http, vers le service Python FastAPI
+  # Valeurs renvoyées par les services IA mockés (modifiables pour simuler les cas)
+  mock:
+    face-match-score: 0.92
+    liveness-score: 0.95
+    fraud-score: 0.05
+  # Comptes de démonstration créés au démarrage (désactiver en production)
+  seed:
+    enabled: true
+    agent-email: agent@kyc.local
+    agent-password: Agent123!
+    admin-email: admin@kyc.local
+    admin-password: Admin123!

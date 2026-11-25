@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    # Base en mémoire distincte par contexte Spring (chaque classe de test peut avoir ses propres propriétés)
+    url: jdbc:h2:mem:${random.uuid};DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+
+kyc:
+  storage:
+    root: target/test-uploads
